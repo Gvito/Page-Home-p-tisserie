@@ -97,20 +97,253 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* <!-- ////////////////////////////////  HEADER START  //////////////////////////////////// --> */
+
+  /* <!-- heading with a search and icone logo/login/search --> */
+
+  header {
+    background-color: yellow;
+  }
+
+  .heading {
+  }
+
+  #imenu {
+  }
+
+  #ilogo {
+  }
+
+  #ilogin {
+  }
+
+  form {
+  }
+
+  #isearch {
+    display: none;
+  }
+
+  /* <!-- navigation and title of the page --> */
+
+  .navtitle {
+  }
+
+  /* <!-- navigation for all page --> */
+
+  nav {
+    display: none;
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none ;
+  }
+
+  nav li {
+    display: inline ;
+    margin-right: 1px ;
+    color: #fff ;
+    background: #c00
+  }
+
+  nav li a {
+    padding: 1vh 4vh ;
+    background: #c00 ;
+    color: #fff ;
+    border: 2px solid #600 ;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 1em ;
+    text-align: center ;
+    text-decoration: none ;
+  }
+
+  nav li a:hover, nav li a:focus, nav li a:active {
+    background: #900 ;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  /* <!-- title and slogan --> */
+
+  section {
+  }
+
+  h1 {
+  }
+
+  h2 {
+  }
+
+/* <!-- ////////////////////////////////  HEADER END  //////////////////////////////////// --> */
 
 
+/* <!-- ////////////////////////////////  MAIN START  //////////////////////////////////// --> */
+
+  main {
+    background-color: red;
+  }
+
+  .allmain {
+  }
+
+  /* <!-- first main with button"s and recipe --> */
+
+  .firstmain {
+  }
+
+  .allbutton {
+    display: none;
+  }
+
+  /* ////////// first button ////////// */
+
+  .button_a {
+  }
+
+  .button_a button {
+  }
+
+  .button_a h4 {
+  }
+
+  /* ////////// seconde button ////////// */
+
+  .button_b {
+  }
+
+  .button_b  button {
+  }
+
+  .button_b h4 {
+  }
+
+  /* ////////// third button ////////// */
+
+  .button_c {
+  }
+
+  .button_c button {
+  }
+
+  .button_c h4 {
+  }
+
+  /* <!-- repice on page --> */
+
+  .repicefirst {
+  }
+
+  .repicefirst p {
+  }
+
+  .repicefirst img {
+  }
+
+  /* <!-- second main with divers repice --> */
+
+  .secondmain {
+  }
+
+  /* <!-- a subtitle --> */
+
+  h3 {
+  }
+
+  /* <!-- groups all the recipes --> */
+
+  .allrepice {
+  }
+
+  /* repice one */
+
+  .repice_a {
+  }
+
+  .repice_a h5 {
+  }
+
+  .repice_a img {
+  }
+
+  .repice_a p {
+  }
+
+  /* the repice_a url */
+
+  .urlrepice_a {
+  }
+
+  /* repice two */
+
+  .repice_b {
+  }
+
+  .repice_b h5 {
+  }
+
+  .repice_b img {
+  }
+
+  .repice_b p {
+  }
+
+  /* the repice_b url */
+
+  .urlrepice_b {
+  }
+
+  /* repice three */
+
+  .repice_c {
+  }
+
+  .repice_c h5 {
+  }
+
+  .repice_c img {
+  }
+
+  .repice_c p {
+  }
+
+  /* the repice_c url */
+
+  .urlrepice_c {
+  }
+
+/* <!-- ////////////////////////////////  MAIN END  //////////////////////////////////// --> */
 
 
+/* <!-- ////////////////////////////////  FOOTER START  //////////////////////////////////// --> */
 
+  footer {
+    background-color: blue;
+  }
 
+  .allfooter {
+  }
 
+  /* <!-- url footer links --> */
 
+  .ulfooter{
+    display: none;
+  }
 
+  /* <!-- credits --> */
 
+  h6 {
+  }
 
+  /* <!-- logo and social networks url --> */
 
+  .networksurl {
+  }
 
+  #ifooter {
+  }
 
+/* <!-- ////////////////////////////////  FOOTER END //////////////////////////////////// --> */
 
 
 /* ==========================================================================

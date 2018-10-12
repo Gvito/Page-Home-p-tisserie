@@ -1,28 +1,167 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
+  <title>ED blog pâtisserie</title>
+  <meta name="description" content="Le blog d'Emmanuel Dupret qui partage ses recettes et critiques de cuisine !">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+<!-- ////////////////////////////////  HEADER START  //////////////////////////////////// -->
+
+  <header>
+    <!-- heading with a search and icone logo/login/search -->
+    <div class ="heading">
+      <i id="imenu" class="fas fa-bars"></i>
+      <i id="ilogo" class="fab fa-blogger"></i>
+      <i id="ilogin" class="far fa-address-card"></i>
+      <form class="formulaire" target="_self" method="post">
+        <input class="champ" type="text" value="Recherche"/>
+      </form>
+      <i id="isearch" class="fas fa-search"></i>
+    </div>
+      <!-- navigation and title of the page -->
+      <div class="navtitle">
+        <!-- navigation for all page -->
+        <nav>
+          <ul>
+            <li><a href="#" title="">lien1</a></li>
+            <li><a href="#" title="">lien2</a></li>
+            <li><a href="#" title="">lien3</a></li>
+            <li><a href="#" title="">lien4</a></li>
+          </ul>
+        </nav>
+        <!-- title and slogan -->
+        <section>
+         <h1>Le blog d'Emmanuel</h1>
+         <h2>" Le délice d'une pâtisserie raffinée "</h2>
+       </section>
+     </div>
+  </header>
+
+<!-- ////////////////////////////////  HEADER END  //////////////////////////////////// -->
+
+<!-- ////////////////////////////////  MAIN START  //////////////////////////////////// -->
+  <main>
+    <div class="allmain">
+        <!-- first main with button"s and recipe -->
+        <div class="firstmain">
+          <div class="allbutton">
+            <!-- every button -->
+            <aside class="button_a">
+              <button name="bouton1" value="submit">button1</button>
+              <h4>le button 1</h4>
+            </aside>
+            <!-- every button -->
+            <aside class="button_b">
+              <button name="bouton2" value="submit">button2</button>
+              <h4>le button 2</h4>
+            </aside>
+            <!-- every button -->
+            <aside class="button_c">
+              <button name="bouton2" value="submit">button3</button>
+              <h4>le button 3</h4>
+            </aside>
+          </div>
+          <!-- repice on page -->
+          <div class="repicefirst">
+            <p>Bienvenue sur mon blog de pâtisserie ! Que vous soyez à la recherche d’une gourmandise facile et rapide à réaliser ou d’un dessert digne des plus grands Chefs, vous trouverez forcément votre bonheur. Je partage avec vous toutes mes recettes de pâtisseries. Elles ont toutes été réalisées, testées et photographiées dans ma petite cuisine. Si je peux le faire, vous le pouvez aussi. Grands classiques de la pâtisserie française, recettes et techniques de bases, glaces, confiseries, je vous livre tous les secrets et les astuces pour les réaliser facilement chez vous.</p>
+            <img src="img/eclair.png" alt="it's eclair">
+          </div>
+        </div>
+
+        <!-- second main with divers repice -->
+        <div class="secondmain">
+          <!-- a subtitle -->
+          <h3>Mes recettes</h3>
+          <!-- groups all the recipes -->
+          <div class="allrepice">
+            <!-- a repice -->
+            <article class="repice_a">
+              <h5>Un gâteau chocolat</h5>
+              <img src="img/gateauchoco.png" alt="it's chocolate cake">
+              <p>Un gâteau chocolat</p>
+              <!-- url of the recipe on social networks -->
+              <div class="urlrepice_a">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fas fa-file-invoice"></i>
+              </div>
+            </article>
+            <!-- a repice -->
+            <article class="repice_b">
+              <h5>Un moelleux à la pomme</h5>
+              <img src="img/moelleuxpomme.png" alt="moelleuxpomme">
+              <p>Un moelleux à la pomme</p>
+              <!-- uurl of the recipe on social networks -->
+              <div class="urlrepice_b">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fas fa-file-invoice"></i>
+              </div>
+            </article>
+            <!-- a repice -->
+            <article class="repice_c">
+              <h5>Une tarte au pomme</h5>
+              <img src="img/tartepomme.png" alt="tartepomme">
+              <p>Une tarte au pomme</p>
+              <!-- url of the recipe on social networks -->
+              <div class="urlrepice_c">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fas fa-file-invoice"></i>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+  </main>
+
+<!-- ////////////////////////////////  MAIN END  //////////////////////////////////// -->
+
+<!-- ////////////////////////////////  FOOTER START  //////////////////////////////////// -->
+
+  <footer>
+    <div class="allfooter">
+      <!-- url footer links -->
+      <aside class="allurl">
+        <ul class="ulfooter">
+          <li>lien</li>
+          <li>lien</li>
+          <li>lien</li>
+          <li>lien</li>
+          <li>lien</li>
+          <li>lien</li>
+          <li>lien</li>
+          <li>lien</li>
+          <li>lien</li>
+        </ul>
+      </aside>
+      <!-- credits -->
+      <h6>©Coryright 2018 Blog Emmanuel Dupret</h6>
+      <!-- logo and social networks url -->
+      <div class="networksurl">
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-github-square"></i>
+        <i class="fab fa-slack"></i>
+      </div>
+    </div>
+  </footer>
+
+<!-- ////////////////////////////////  FOOTER END //////////////////////////////////// -->
+
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
@@ -35,6 +174,6 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-</body>
 
+  </body>
 </html>
