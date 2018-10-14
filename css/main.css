@@ -97,20 +97,327 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   body {
+    font-family: 'Raleway', sans-serif;
+    margin: 1em;
+    background-color: #c59849;
+   }
+
+/* <!-- ////////////////////////////////  HEADER START  //////////////////////////////////// --> */
+
+  /* <!-- heading with a search and icone logo/login/search --> */
+
+  header {
+  }
+
+  .heading {
+  }
+
+  i {
+    font-size: 8vh;
+  }
+
+  .imobile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #imenu {
+    padding-top: 0.2em;
+    padding-left: 0.2em;
+    font-size: 6vh;
+  }
+
+  #ilogo {
+  }
+
+  #ilogin {
+  }
+
+  form {
+    display: none;
+  }
+
+  #isearch {
+    display: none;
+  }
+
+  /* <!-- navigation and title of the page --> */
+
+  .navtitle {
+  }
+
+  /* <!-- navigation for all page --> */
+
+  nav {
+    display: none;
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none ;
+  }
+
+  nav li {
+    display: inline ;
+    margin-right: 1px ;
+    color: #fff ;
+    background: #c00
+  }
+
+  nav li a {
+    padding: 1vh 4vh ;
+    background: #c00 ;
+    color: #fff ;
+    border: 2px solid #600 ;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 1em ;
+    text-align: center ;
+    text-decoration: none ;
+  }
+
+  nav li a:hover, nav li a:focus, nav li a:active {
+    background: #900 ;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  /* <!-- title and slogan --> */
+
+  section {
+    margin: 2em
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 1em;
+  }
+
+/* <!-- ////////////////////////////////  HEADER END  //////////////////////////////////// --> */
 
 
+/* <!-- ////////////////////////////////  MAIN START  //////////////////////////////////// --> */
+
+  main {
+  }
+
+  .allmain {
+    text-align: center;
+  }
+
+  /* <!-- first main with button"s and recipe --> */
+
+  .firstmain {
+    border: 2px solid;
+  }
+
+  .allbutton {
+    display: none;
+  }
+
+  /* ////////// first button ////////// */
+
+  .button_a {
+  }
+
+  .button_a button {
+  }
+
+  .button_a h4 {
+  }
+
+  /* ////////// seconde button ////////// */
+
+  .button_b {
+  }
+
+  .button_b  button {
+  }
+
+  .button_b h4 {
+  }
+
+  /* ////////// third button ////////// */
+
+  .button_c {
+  }
+
+  .button_c button {
+  }
+
+  .button_c h4 {
+  }
+
+  /* <!-- repice on page --> */
+
+  .repicefirst {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .repicefirst p {
+    background-color: #fce694;
+    font-size: 0.7em;
+  }
+
+  .repicefirst img {
+    width: auto;
+    height: 40vh;
+    border: 5px solid;
+  }
+
+  /* <!-- second main with divers repice --> */
+
+  .secondmain {
+  }
+
+  /* <!-- a subtitle --> */
+
+  h3 {
+    text-align: left;
+    text-decoration: underline;
+  }
+
+  /* <!-- groups all the recipes --> */
+
+  .allrepice {
+  }
+
+  /* repice one */
+
+  .repice_a {
+    display: flex;
+
+    flex-direction: column;
+    border: 2px solid;
+    margin-bottom: 1em;
+  }
+
+  .repice_a h5 {
+    background-color: #fce694;
+  }
+
+  .repice_a img {
+    width: auto;
+    height: 40vh;
+    border: 5px solid;
+  }
+
+  .repice_a p {
+    background-color: #fce694;
+  }
+
+  /* the repice_a url */
+
+  .urlrepice_a {
+    text-align: right;
+    padding: 0.4em;
+  }
+
+  /* repice two */
+
+  .repice_b {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid;
+    margin-bottom: 1em;
+  }
+
+  .repice_b h5 {
+    background-color: #fce694;
+  }
+
+  .repice_b img {
+    width: auto;
+    height: 40vh;
+    border: 5px solid;
+  }
+
+  .repice_b p {
+    background-color: #fce694;
+  }
+
+  /* the repice_b url */
+
+  .urlrepice_b {
+    text-align: right;
+    padding: 0.4em;
+  }
+
+  /* repice three */
+
+  .repice_c {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid;
+    margin-bottom: 2em;
+  }
+
+  .repice_c h5 {
+    background-color: #fce694;
+  }
+
+  .repice_c img {
+    width: auto;
+    height: 40vh;
+    border: 5px solid;
+  }
+
+  .repice_c p {
+    background-color: #fce694;
+  }
+
+  /* the repice_c url */
+
+  .urlrepice_c {
+    text-align: right;
+    padding: 0.4em;
+  }
+
+/* <!-- ////////////////////////////////  MAIN END  //////////////////////////////////// --> */
 
 
+/* <!-- ////////////////////////////////  FOOTER START  //////////////////////////////////// --> */
 
+  footer {;
+  }
 
+  .allfooter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
+  /* <!-- url footer links --> */
 
+  .ulfooter{
+    display: none;
+  }
 
+  /* <!-- credits --> */
 
+  h6 {
+    margin: 0.5em;
+  }
 
+  /* <!-- logo and social networks url --> */
 
+  .networksurl {
+  }
 
+  .networksurl i {
+    margin: 0.3em;
+  }
 
+/* <!-- ////////////////////////////////  FOOTER END //////////////////////////////////// --> */
 
 
 /* ==========================================================================
