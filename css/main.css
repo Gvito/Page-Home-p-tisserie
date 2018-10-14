@@ -107,12 +107,6 @@ textarea {
 
   /* <!-- heading with a search and icone logo/login/search --> */
 
-  header {
-  }
-
-  .heading {
-  }
-
   i {
     font-size: 8vh;
   }
@@ -128,59 +122,41 @@ textarea {
     font-size: 6vh;
   }
 
-  #ilogo {
-  }
-
-  #ilogin {
-  }
-
-  form {
+  .headingTAD {
     display: none;
-  }
-
-  #isearch {
-    display: none;
-  }
-
-  /* <!-- navigation and title of the page --> */
-
-  .navtitle {
   }
 
   /* <!-- navigation for all page --> */
 
-  nav {
-    display: none;
-    margin: 0 ;
-    padding: 0 ;
-    list-style: none ;
-  }
+      nav {
+        display: none;
+        list-style: none;
+      }
 
-  nav li {
-    display: inline ;
-    margin-right: 1px ;
-    color: #fff ;
-    background: #c00
-  }
+      nav li {
+        display: inline;
+        margin-right: 1px;
+        color: #fff;
+        background: #c00;
+      }
 
-  nav li a {
-    padding: 1vh 4vh ;
-    background: #c00 ;
-    color: #fff ;
-    border: 2px solid #600 ;
-    font: 1em "Trebuchet MS",Arial,sans-serif ;
-    line-height: 1em ;
-    text-align: center ;
-    text-decoration: none ;
-  }
+      nav li a {
+        padding: 1vh 5vh;
+        background: #fce694;
+        color: #000;
+        border: 2px solid #000;
+        line-height: 1em;
+        text-align: center;
+        text-decoration: none;
+      }
 
-  nav li a:hover, nav li a:focus, nav li a:active {
-    background: #900 ;
-  }
+      nav li a:hover, nav li a:focus, nav li a:active {
+        background: #ffbd79;
+      }
 
-  li {
-    list-style: none;
-  }
+      li {
+        list-style: none;
+      }
 
   /* <!-- title and slogan --> */
 
@@ -198,13 +174,57 @@ textarea {
     font-size: 1em;
   }
 
+  /* Responsive head For tablette */
+
+  @media screen and (min-width: 600px) {
+
+    body {
+      margin-left: 3em;
+      margin-right: 3em;
+    }
+
+    .headingM {
+      display: none;
+    }
+
+    .headingTAD {
+      display: block;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #ilogo {
+      font-size: 5em;
+    }
+
+    #ilogin {
+      font-size: 2em;
+    }
+
+    .heading_right {
+      display: flex;
+      align-items: center;
+    }
+
+    form {
+      display: block;
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+    }
+
+    #isearch {
+      font-size: 1.5em;
+    }
+
+    nav {
+      display: block;
+      margin-top: 2em;
+    }
+
 /* <!-- ////////////////////////////////  HEADER END  //////////////////////////////////// --> */
 
 
 /* <!-- ////////////////////////////////  MAIN START  //////////////////////////////////// --> */
-
-  main {
-  }
 
   .allmain {
     text-align: center;
@@ -213,44 +233,10 @@ textarea {
   /* <!-- first main with button"s and recipe --> */
 
   .firstmain {
-    border: 2px solid;
   }
 
   .allbutton {
     display: none;
-  }
-
-  /* ////////// first button ////////// */
-
-  .button_a {
-  }
-
-  .button_a button {
-  }
-
-  .button_a h4 {
-  }
-
-  /* ////////// seconde button ////////// */
-
-  .button_b {
-  }
-
-  .button_b  button {
-  }
-
-  .button_b h4 {
-  }
-
-  /* ////////// third button ////////// */
-
-  .button_c {
-  }
-
-  .button_c button {
-  }
-
-  .button_c h4 {
   }
 
   /* <!-- repice on page --> */
@@ -264,17 +250,13 @@ textarea {
   .repicefirst p {
     background-color: #fce694;
     font-size: 0.7em;
+    border: 2px solid;
   }
 
   .repicefirst img {
     width: auto;
     height: 40vh;
     border: 5px solid;
-  }
-
-  /* <!-- second main with divers repice --> */
-
-  .secondmain {
   }
 
   /* <!-- a subtitle --> */
@@ -284,23 +266,19 @@ textarea {
     text-decoration: underline;
   }
 
-  /* <!-- groups all the recipes --> */
-
-  .allrepice {
-  }
-
   /* repice one */
 
   .repice_a {
     display: flex;
-
     flex-direction: column;
+    justify-content: center;
     border: 2px solid;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
   }
 
   .repice_a h5 {
     background-color: #fce694;
+    border: 2px solid;
   }
 
   .repice_a img {
@@ -311,6 +289,7 @@ textarea {
 
   .repice_a p {
     background-color: #fce694;
+    border: 2px solid;
   }
 
   /* the repice_a url */
@@ -327,11 +306,12 @@ textarea {
     justify-content: center;
     flex-direction: column;
     border: 2px solid;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
   }
 
   .repice_b h5 {
     background-color: #fce694;
+    border: 2px solid;
   }
 
   .repice_b img {
@@ -342,6 +322,7 @@ textarea {
 
   .repice_b p {
     background-color: #fce694;
+    border: 2px solid;
   }
 
   /* the repice_b url */
@@ -363,6 +344,7 @@ textarea {
 
   .repice_c h5 {
     background-color: #fce694;
+    border: 2px solid;
   }
 
   .repice_c img {
@@ -373,6 +355,7 @@ textarea {
 
   .repice_c p {
     background-color: #fce694;
+    border: 2px solid;
   }
 
   /* the repice_c url */
@@ -382,13 +365,35 @@ textarea {
     padding: 0.4em;
   }
 
+  /* Responsive body For tablette */
+
+  @media screen and (min-width: 600px) {
+
+    .repicefirst p {
+      font-size: 0.9em;
+    }
+
+    .repicefirst img {
+      height: 80vh;
+    }
+
+    .repice_a img {
+      height: 80vh;
+    }
+
+    .repice_b img {
+      height: 80vh;
+    }
+
+    .repice_c img {
+      height: 80vh;
+    }
+  }
+
 /* <!-- ////////////////////////////////  MAIN END  //////////////////////////////////// --> */
 
 
 /* <!-- ////////////////////////////////  FOOTER START  //////////////////////////////////// --> */
-
-  footer {;
-  }
 
   .allfooter {
     display: flex;
